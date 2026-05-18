@@ -81,7 +81,21 @@ int main() {
     int result_index_binary = binarySearch(n3, arr3, value3); 
     printf("It's in index %d", result_index_binary);
 
-
-
-
 }
+
+/*
+    Input the length of the array: 5
+    Input the array in order: 1.2 3.3 4.5 6.4 7.8
+    Tell me the value you want to insert: 5.5
+    The array after inserting: 1.2000003.3000004.5000005.5000006.4000007.800000
+
+    Input the length of the array: 5
+    Input the array in order: 1.1 2.2 3.3 4.4 6.6
+    Tell me the value you want to find: 4.4
+    It's in index 3
+
+    Input the length of the array: 5
+    Input the array in order: 1.1 2.2 3.3 4.4 6.6
+    Tell me the value you want to find: 3.3
+    It's in index 2
+ */

@@ -23,3 +23,20 @@ int main() {
 
     printf("String after removal: %s", string);
 }
+
+/*
+TEST CASE 1:
+Input the string: DataStructureAndAlgorithm
+Input the position you want to remove: 3
+String after removal: DatStructureAndAlgorithm
+
+TEST CASE 2:
+Input the string: MmMmMmmM
+Input the position you want to remove: 7
+String after removal: MmMmMmm
+
+TEST CASE 3:
+Input the string: thCTDL&GT
+Input the position you want to remove: 8
+String after removal: thCTDL&G
+ */

@@ -56,3 +56,26 @@ int main() {
     stringSearch(serialKey, string, n, k);
     
 }   
+
+/*
+TEST CASE 1:
+    Input the length of the array: 4
+    Input the length of the zip code: 8
+    Input zip code number 1: 01sd203a
+    Input zip code number 2: 98lam780
+    Input zip code number 3: N1h2u3ng
+    Input zip code number 4: hvthaott
+    Input the string you want to find: hvthaott
+    The string hvthaott is at index 3
+TEST CASE 2:
+    Input the length of the array: 5
+    Input the length of the zip code: 3
+    Input zip code number 1: 2k3
+    Input zip code number 2: 2k4
+    Input zip code number 3: 2k2
+    Input zip code number 4: 3j3
+    Input zip code number 5: 2k2
+    Input the string you want to find: 2k2
+    The string 2k2 is at index 2
+    The string 2k2 is at index 4
+ */

@@ -59,3 +59,31 @@ int main() {
     }
     
 }
+
+/*
+TEST CASE 1:
+Input the length of the array: 3
+Input the length of the string: 4
+Input the sub string 1: abcd
+Input the sub string 2: mnop
+Input the sub string 3: efgh
+Input the string you want to insert: ijkl
+What's the location you want to insert the string in? 1
+abcd ijkl mnop efgh
+
+TEST CASE 2:
+Input the length of the array: 9
+Input the length of the string: 10
+Input the sub string 1: 00applepie
+Input the sub string 2: 01vnuhcmus
+Input the sub string 3: 02ppnhungt
+Input the sub string 4: 03phlamtth
+Input the sub string 5: 04hvthaoms
+Input the sub string 6: 05shjkadkj
+Input the sub string 7: 06thcdtlgt 
+Input the sub string 8: 0716TTHusm
+Input the sub string 9: 0922KDLusm
+Input the string you want to insert: 0822TTHusm
+What's the location you want to insert the string in? 8
+00applepie 01vnuhcmus 02ppnhungt 03phlamtth 04hvthaoms 05shjkadkj 06thcdtlgt 0716TTHusm 0822TTHusm 0922KDLusm
+ */

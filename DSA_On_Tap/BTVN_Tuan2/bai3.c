@@ -22,7 +22,9 @@ void insertArray(char string[], int *length, int position,  char value) {
 
 int main() {
     int alphabet[26] = {0};
-    char string[] = "abcdefghijklmopqrstuvwxyz";
+    char string[999];
+    printf("Input the string: ");
+    scanf("%s", string);
     int missing_position = missing_character(alphabet, string, 25, 26);
     
     printf("The string: %s\n", string);;
@@ -34,9 +36,21 @@ int main() {
 }
 
 /*
-The string: abcdefghijklmopqrstuvwxyz
-The n at 13 is missing 
+TEST CASE 1:
+Input the string: bcdefghijklmnopqrstuvwxyz
+The string: bcdefghijklmnopqrstuvwxyz
+The a at 0 is missing 
 The string after fixing: abcdefghijklmnopqrstuvwxyz
 
-Thuat toan binary search khong hop vi o day chung ta can biet ro vvalue can tim nhung mao day chung ta khong co thong tin do
+TEST CASE 2:
+Input the string: abcdefghiklmnopqrstuvwxyz
+The string: abcdefghiklmnopqrstuvwxyz
+The j at 9 is missing 
+The string after fixing: abcdefghijklmnopqrstuvwxyz
+
+TEST CASE 3:
+Input the string: abcdefghijklmnopqrstuvwxy
+The string: abcdefghijklmnopqrstuvwxy
+The z at 25 is missing 
+The string after fixing: abcdefghijklmnopqrstuvwxyz
 */

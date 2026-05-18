@@ -38,3 +38,11 @@ int main() {
     float smallestGap = closestNumber((float) m, arr, n, &index);
     printf("The closest number to 'm' is %f with the gap of %f", arr[index], smallestGap);
 }
+
+/*
+TEST CASE 1:
+Input the integer 'm': 1
+Input the length of the array: 6
+Input the array: -1.02 0 1.24 1.32 -2.12 3.23
+The closest number to 'm' is 1.240000 with the gap of 0.240000
+ */

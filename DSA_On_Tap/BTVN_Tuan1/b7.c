@@ -91,3 +91,43 @@ int main() {
         }
     }
 }
+
+/*
+TEST CASE 1:
+Input the number of pre-existed code you want: 2
+Input the code: 01dkshgbkb
+Input the code: 02kshdkjhk
+Input the number of code you want to insert 2
+Input the code: 03jkashjhj
+Input the code: 00djhkfdhf
+00djhkfdhf
+01dkshgbkb
+02kshdkjhk
+03jkashjhj
+
+TEST CASE 2:
+Input the number of pre-existed code you want: 6
+Input the code: 01vnuhcmus
+Input the code: 03phhlamtth
+Wrong size! Please input again: 003phlamtth
+Wrong size! Please input again: 03phlamtth
+Input the code: 04hvthaoms
+Input the code: 05shjkadkj
+Input the code: 0716TTHusm
+Input the code: 0922KDLusm
+Input the number of code you want to insert 4
+Input the code: 02ppnhungt
+Input the code: 00applepie
+Input the code: 0822TTHusm
+Input the code: 06thctdlgt
+00applepie
+01vnuhcmus
+02ppnhungt
+03phlamtth
+04hvthaoms
+05shjkadkj
+06thctdlgt
+0716TTHusm
+0822TTHusm
+0922KDLusm
+ */

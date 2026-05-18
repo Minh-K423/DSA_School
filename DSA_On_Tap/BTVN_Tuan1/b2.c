@@ -41,3 +41,18 @@ int main() {
         printf("Not found !");
     }
 }
+
+/*
+TEST CASE 1:
+    Input the string: DataStructureAndAlgorithm
+    Input the character you want to find: A
+    The index is at 13
+TEST CASE 2: 
+    Input the string: MmMmMmmM
+    Input the character you want to find: m
+    The index is at 1
+TEST CASE 3: 
+    Input the string: PhamNhungLam
+    Input the character you want to find: t
+    Not found !
+ */
